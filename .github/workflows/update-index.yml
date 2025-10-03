@@ -20,7 +20,7 @@ jobs:
           git fetch reko dev
           git checkout reko/dev -- localized_data
       - name: HELP me
-        run: 'echo $(ls -l)'
+        run: 'echo $(ls -l localized_data/)'
       - name: Install uv and Python
         uses: astral-sh/setup-uv@v6
         with:
