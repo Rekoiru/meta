@@ -1,0 +1,26 @@
+{
+    "windows": {
+        "bundle_name": "L32FVPENSXNRWRC4WAA6EU57L6BXRWXP"
+    },
+    "android": {
+        "bundle_name": "E657ANSVNIL5ALDRJZLJBLYSAUDDJHKU"
+    },
+    "data": {
+        "motion_parameter_list": {
+            "13": {
+                "text_param_list": {
+                    "0": {
+                        "text": "Fail"
+                    }
+                }
+            },
+            "25": {
+                "text_param_list": {
+                    "0": {
+                        "text": "Island"
+                    }
+                }
+            }
+        }
+    }
+}
