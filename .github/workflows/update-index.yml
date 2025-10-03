@@ -20,6 +20,8 @@ jobs:
           git remote add reko https://github.com/Rekoiru/tl-en.git
           git fetch reko dev
           git checkout reko/dev -- localized_data
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           git commit -m "[BOT] checked out latest localized data"
       - name: Install uv and Python
         uses: astral-sh/setup-uv@v6
@@ -36,8 +38,6 @@ jobs:
         # git reset removes the localized_data commit needed by script
         run: |
           git reset HEAD~
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
           git add index.json
           git commit -m "[BOT] feature: update index for latest commit"
       - name: Push new index file
