@@ -19,7 +19,8 @@ jobs:
           git remote add reko https://github.com/Rekoiru/tl-en.git
           git fetch reko dev
           git checkout reko/dev -- localized_data
-          git restore --staged localized_data
+      - name: HELP me
+        run: 'echo $(ls -l)'
       - name: Install uv and Python
         uses: astral-sh/setup-uv@v6
         with:
