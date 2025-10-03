@@ -1,0 +1,19 @@
+{
+    "windows": {
+        "bundle_name": "JLGIEHKURA2UWFQMUABWI6JVYUVGLWUD"
+    },
+    "android": {
+        "bundle_name": "GRIIELS6UMQZMJ4C73NUTXOTUDHYPQQD"
+    },
+    "data": {
+        "motion_parameter_list": {
+            "6": {
+                "text_param_list": {
+                    "0": {
+                        "text": "Shards"
+                    }
+                }
+            }
+        }
+    }
+}
