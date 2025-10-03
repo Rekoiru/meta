@@ -1,6 +1,7 @@
 name: On changes to dev repo, update TL index
 
 on:
+  workflow_dispatch:
   repository_dispatch:
 
 jobs:
@@ -10,14 +11,15 @@ jobs:
       UV_CACHE_DIR: /tmp/.uv-cache
     permissions:
       contents: write
-      pull-requests: write
     steps:
       - name: Checkout updater script
         uses: actions/checkout@v4
       - name: Checkout latest changes from Reko repo
-        uses: actions/checkout@v4
-        with:
-
+        run: |
+          git remote add reko https://github.com/Rekoiru/tl-en.git
+          git fetch reko dev
+          git checkout reko/dev -- localized_data
+          git restore --staged localized_data
       - name: Install uv and Python
         uses: astral-sh/setup-uv@v6
         with:
