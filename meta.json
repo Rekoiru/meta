@@ -1,13 +1,13 @@
 [
 	{
-    "name": "English (Hachimi Outdated)",
-    "index": "https://files.leadrdrk.com/hachimi/tl-en.json",
-		"short_desc": "Contributors: LeadRDRK, KevinVG207, Rekoiru, flingtest, UmaTL (noccu, LotoDS, SU-trash, robflop, hsven, MiniFoxx, BlunterMonk, CryDuringItAll, Nephiro, watatomo et al.)"
+    "name": "English (Edge tl-en by Rekoiru)",
+    "index": "https://raw.githubusercontent.com/Rekoiru/meta/refs/heads/main/index.json",
+		"short_desc": "Beta access to the future translation update for Hachimi's default repo, frequent updates. Same contributors as below."
   },
 	{
-    "name": "English (Rekoiru tl-en)",
-    "index": "https://raw.githubusercontent.com/Rekoiru/meta/refs/heads/main/index.json",
-		"short_desc": "Early Access to the future translation update for Hachimi's default repo. Same contributors as above."
+    "name": "English (Hachimi Official, OUTDATED)",
+    "index": "https://files.leadrdrk.com/hachimi/tl-en.json",
+		"short_desc": "Contributors: LeadRDRK, KevinVG207, Rekoiru, flingtest, UmaTL (noccu, LotoDS, SU-trash, robflop, hsven, MiniFoxx, BlunterMonk, CryDuringItAll, Nephiro, watatomo et al.)"
   },
   {
     "name": "繁體中文",
