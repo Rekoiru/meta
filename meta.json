@@ -1,5 +1,5 @@
 [
-	{
+  {
     "name": "English (Edge tl-en by Rekoiru)",
     "index": "https://raw.githubusercontent.com/Rekoiru/meta/refs/heads/main/index.json",
 		"short_desc": "Testing repository for Hachimi's official EN translations, frequent updates. Same contributors as Hachimi Official."
@@ -9,10 +9,15 @@
     "index": "https://raw.githubusercontent.com/UmaTL/hachimi-tl-en/release/index.json",
     "short_desc": "The UmaTL project's English translations, adapted for use with Hachimi. Alternate versions available on GitHub."
   },
-	{
+  {
     "name": "English (Hachimi Official, OUTDATED)",
     "index": "https://files.leadrdrk.com/hachimi/tl-en.json",
 		"short_desc": "Contributors: LeadRDRK, KevinVG207, Rekoiru, flingtest, UmaTL (noccu, LotoDS, SU-trash, robflop, hsven, MiniFoxx, BlunterMonk, CryDuringItAll, Nephiro, watatomo et al.)"
+  },
+  {
+    "name": "Bahasa Indonesia",
+    "index": "https://raw.githubusercontent.com/FahriAdison/hachimi-id/release/index.json",
+    "short_desc": "Terjemahan Inggris -> Indonesia. Asal: UmaTL. Kontributor: FahriAdison (+ Pemelihara), R4nc3, …"
   },
   {
     "name": "繁體中文",
