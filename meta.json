@@ -2,7 +2,12 @@
 	{
     "name": "English (Edge tl-en by Rekoiru)",
     "index": "https://raw.githubusercontent.com/Rekoiru/meta/refs/heads/main/index.json",
-		"short_desc": "Beta access to the future translation update for Hachimi's default repo, frequent updates. Same contributors as below."
+		"short_desc": "Testing repository for Hachimi's official EN translations, frequent updates. Same contributors as Hachimi Official."
+  },
+  {
+    "name": "UmaTL English for Hachimi",
+    "index": "https://raw.githubusercontent.com/UmaTL/hachimi-tl-en/release/index.json",
+    "short_desc": "The UmaTL project's English translations, adapted for use with Hachimi. Alternate versions available on GitHub."
   },
 	{
     "name": "English (Hachimi Official, OUTDATED)",
